@@ -1,0 +1,32 @@
+.search-foot a.right {
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    color: #fff;
+  }
+
+  .search-foot a.right:hover{
+    color: black;
+  }
+  .search-foot {
+    overflow: hidden;
+    background-color: #3153eb;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    height: 80px;
+  }  
+
+  .search-foot h2 {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  .search-bus{
+      font-size: 30px;
+      margin-top:15px ;
+      margin-left: 25px;
+  }

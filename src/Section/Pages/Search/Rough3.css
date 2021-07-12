@@ -1,0 +1,257 @@
+/*************************************
+SECTION CSS
+**************************************/
+     /********  1. SIDEBAR-WIDGET-1 CSS **************************************/
+     .sidebar-widget-1 
+     .list-group-item {padding:10px; }
+     .list-group-hover .list-group-item:hover {
+        background-color: #384aee ;color:#fff;transition: all 0.5s ease-out;}
+     .sidebar-widget-1 i {color:#696969 ;  margin-right:10px;font-size:18px;font-weight:600;}
+     .list-group-item {background:#384aee ;color:#fff; }
+   
+     
+/********  3. Search-result-title CSS **************************************/            
+     .search-result-title {padding-top:15px;}
+/****************** Crane Listing View Classes ***********/
+     .crane-grid-listing {box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);  margin-bottom:15px; line-height:24px;}
+     /* .crane-grid-listing:hover {background:hsl(231, 88%, 59%) ;} */
+     .crane-grid-listing:hover  {
+         color: rgb(65, 90, 231);
+         -webkit-transition: all 0.5s ease-out;
+         -moz-transition: all 0.5s ease-out;
+         -ms-transition: all 0.5s ease-out;
+         -o-transition: all 0.5s ease-out;
+         transition: all 0.5s ease-out;
+     }
+     .crane-grid-listing :hover a  {
+         color: #cccccc;
+         -webkit-transition: all 0.5s ease-out;
+         -moz-transition: all 0.5s ease-out;
+         -ms-transition: all 0.5s ease-out;
+         -o-transition: all 0.5s ease-out;
+         transition: all 0.5s ease-out;
+     }
+     .crane-image-block {padding:0px;margin:0px;}
+     .crane-grid-listing a {text-decoration:none;}
+     .crane-list-img img {min-height: 200px; overflow: hidden;}
+     .crane-list-content {height: 200px;  overflow: hidden; padding-left:1px;}
+     .crane-list-content i {color:rgb(0, 0, 0); padding-right:2px;}
+
+
+.crane-grid-listing{
+    border-radius: 14px !important;
+    box-shadow: 1px 1px 5px 1px #d1cfcf !important;
+}
+
+/**************************************
+00. GENERIC CSS
+**************************************/
+* {-webkit-border-radius: 0 !important;-moz-border-radius: 0 !important; border-radius: 0 !important;}
+body {font-family: 'Roboto';font-size: 16px;letter-spacing:.5px;}
+a:hover {text-decoration:none;}
+
+/*************************************
+2. MARGIN CSS
+**************************************/
+.nav-content-margin {margin-top:50px;}
+.content-top-margin {margin-top:15px;}
+.margin-t-40 {margin-top:40px;}
+.margin-b-15 {margin-bottom:15px;}
+/*************************************
+3. PADDING CSS
+**************************************/
+.padding-left-20 {padding-left:20px;}
+.padding-b-10 {padding-bottom:10px;}
+.padding-tb-10 {padding:10px 0px 10px 0px;}
+
+
+/*************************************
+8. IMAGES/MEDIA CSS
+**************************************/
+/*************************************
+8. FORM CSS
+**************************************/
+input[type="text"], input[type="password"],  input[type="email"] {
+width: 100%;
+padding: 22px 10px;
+border: 1px solid #febf00 ;
+outline: none;
+font-size: 1em;
+margin-bottom: 1.2%;
+color: #000;
+font-family: 'Roboto', sans-serif;
+}
+input[type="submit"] {
+padding: 2.9% 0%;
+border:  1px solid #febf00;
+width: 54%;
+outline: none;
+font-size: 1em;
+letter-spacing: 1px;
+font-weight: 600;
+color: #fff;
+background: #aa6f71;
+text-transform: uppercase;
+cursor: pointer;
+margin: 1% 0em 7.5%;
+transition: 0.5s all;
+-moz-transition: 0.5s all;
+-o-transition: 0.5s all;
+-ms-transition: 0.5s all;
+font-family: 'Roboto', sans-serif;
+}
+.select-box {
+display: block;
+width: 100%;
+padding: 12px 10px;
+font-size: 16px;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #febf00;
+border-radius: 0px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+/*************************************
+8. Background CSS
+**************************************/
+.bg-blue {background:#031f9a ;color:#fff !important;}
+.bg-yellow {background:#febf00  ;color:#fff !important;}
+.bg-blue-1 {background-color: #e7f3fe;color: #424448!important; }
+.bg-grey-1 {background-color: #f2f2f2;color: #424448!important; }
+.bg-light-grey-1 {background-color: #f0f3f5;color: #424448!important; }
+
+
+
+
+/* Moves the top and bottom bars to the middle on action (IE9 or higher) */
+
+.gaadiexp-check:checked + .gaadiexp span:before,
+.gaadiexp-check:checked + .gaadiexp span:after {
+top: 6px;
+}
+
+
+.gaadiexp-check:checked + .gaadiexp span:before {
+-webkit-transform: rotate(225deg);
+-ms-transform: rotate(225deg);
+transform: rotate(225deg);
+}
+
+
+/* Rotates the bottom bar on action with full browser support (IE9 or higher) */
+
+.gaadiexp-check:checked + .gaadiexp span:after {
+-webkit-transform: rotate(-225deg);
+-ms-transform: rotate(225deg);
+transform: rotate(-225deg);
+}
+
+
+.gaadiexp-check:checked + .gaadiexp {
+width: 200px;
+}
+
+.gaadiexp-check:checked + .gaadiexp:after {
+bottom: 10px;
+content: 'Close ';
+font-size: 18px;
+padding-left: 0px;
+}
+.cal-form{
+    height: 45px;
+}
+
+.btn-block{
+    height: 40px;
+    background-color: rgb(65, 90, 231);
+    color: #fff;
+    border: #fff;
+}
+.btn-block:hover{
+    background-color: rgb(255, 255, 255);
+    border:2px solid black;
+    color: rgb(0, 0, 0);
+}
+
+#search-cat{
+    color: black;
+}
+
+/* Filter CSS */
+
+
+.filter-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .filter-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .filter-container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .filter-container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .filter-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .filter-container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 14px;
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .MuiButton-contained{
+    background-color: #000;
+  }

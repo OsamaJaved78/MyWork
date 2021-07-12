@@ -1,0 +1,124 @@
+
+h1{
+  font-weight: bold;
+}
+#reservation .section-heading {
+  margin-bottom: 30px;
+}
+
+#reservation .section-heading h6 {
+  color: #fff;
+}
+
+#reservation .section-heading h2 {
+  color: #fff;
+  font-weight: 700;
+}
+
+#reservation .section-heading h6:before {
+  background-color: #fff;
+}
+
+#reservation p {
+  color: #fff;
+  margin-bottom: 65px;
+}
+
+#reservation {
+  padding: 120px 0px;
+  background: #f1f2f3; /* Old browsers */
+  background: -moz-linear-gradient(left,  #d2dde7 0%, #6fb1f0 50%, #6dabee 51%, #165ac8 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #d2dde7 0%,#6fb1f0 50%,#6dabee 51%,#165ac8 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #d2dde7 0%,#6fb1f0 50%,#6dabee 51%,#165ac8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#reservation .phone,
+#reservation .message {
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 0px 0px 20px 0px;
+}
+
+#reservation .phone i,
+#reservation .message i {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  text-align: center;
+  line-height: 70px;
+  color: #fff;
+  background-color: #fb5849;
+  border-radius: 50%;
+  font-size: 24px;
+  margin-top: -35px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#reservation .phone h4,
+#reservation .message h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+#reservation .phone span a,
+#reservation .message span a {
+  font-size: 14px;
+  color: #2a2a2a;
+  transition: all .3s;
+}
+
+#reservation .phone span a:hover,
+#reservation .message span a:hover {
+  color: #fb5849;
+}
+
+
+#contact {
+  padding: 45px 30px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#contact h4 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: #2a2a2a;
+  margin-bottom: 30px;
+}
+
+
+.contact-form{
+  margin-bottom: 50px;
+}
+
+
+#form-textarea-control-opinion{
+  height: 150px;
+}
+/* ///// inputs /////*/
+.contact-form-card{
+  width: 400px;
+  padding: 15px;
+  margin:auto;
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+
+.contact-form-container-info{
+z-index: 1;
+}
+
+.contact-form-card{
+  margin-bottom: 50px;
+}
